@@ -71,6 +71,6 @@ p = alt.Chart(df).mark_bar().encode(
     y='count'
 )
 p = p.properties(
-    width=alt.Step(80) 
+    width=alt.Step(60) 
 )
-
+st.write(p)
